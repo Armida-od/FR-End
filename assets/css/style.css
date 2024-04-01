@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.trialFree{
+    background: #19191C;
+}
+.button_started{
+    background: #504DEE;
+}
+.offer{
+    background-image: url("../../assets/img/gradient.png");
+}
+.profession_card-1, .profession_card_discover_base, .profession_card_discover_premium{
+    background: #DEEFE4;
+}
+.profession_card-2{
+    background: #F3F3D7;
+}
+.profession_card-3{
+    background: #EFDEEE
+}
+.profession_card_discover_base_button, .profession_card_discover_premium_button{
+    background: #19191C;
+}
+.profession_card_discover_optimal{
+    background: #504DEE;
+}
+.profession_card_discover_optimal_button{
+    background: #FBFBFC;
+}
+footer{
+    background: #19191C;
+}
