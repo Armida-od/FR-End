@@ -12,41 +12,47 @@
     <title>UI/UX designer</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <img src="assets/img/logo.svg" alt="logo">
-            UpDate
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Teachers</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-            </ul>
-            <a href="#">En</a>
-            <a href="#">Sign In</a>
+    <header class="container header">
+        <div class="header_box">
+            <a class="logo" href="index.html">
+                <img src="assets/img/logo.svg" alt="logo">
+                UpDate
+            </a>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li>
+                        <a class="nav_link" href="#">Courses</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="#">Teachers</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="btn-box">
+            <a class="btn_box_link" href="#">En</a>
+            <a class="btn_box_link" href="#">Sign In</a>
             <a class="trialFree" href="#">Trial free</a>
-        </nav>
+        </div>
     </header>
     <main>
-        <section class="offer">
-            <!--<img src="assets/img/gradient.png" alt="main background">-->
-            <p class="offer_date">6 months</p>
-            <p class="offer_prof">profession:</p>
-            <h1 class="offer_title">UI/UX designer</h1>
-            <p class="offer_desc">You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma.
-                Add posters, logos, merch design and other strong projects to your portfolio. Start a career in the studio or freelance.</p>
-            <button class="button_started">
-                Started
-            </button>
-            <p class="offer_sale">25%</p>
-            <p class="offer_expiration"><time>17 Days 17:44:16</time></p>
+        <section class="offer container">
+            <div class="offer_left">
+                <p class="offer_date">6 months</p>
+                <p class="offer_prof">profession:</p>
+                <h1 class="offer_title">UI/UX designer</h1>
+                <p class="offer_desc">You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma.
+                    Add posters, logos, merch design and other strong projects to your portfolio. Start a career in the studio or freelance.</p>
+                <button class="button_started">
+                    Started
+                </button>
+                <p class="offer_sale">25%</p>
+                <p class="offer_expiration"><time>17 Days 17:44:16</time></p>
+            </div>
 
             <ul class="offer_list">
                 <li>InVision</li>
@@ -56,8 +62,8 @@
                 <li>Figma</li>
                 <li>Illustrator</li>
             </ul>
-            <img src="assets/img/background_person.svg" alt="background">
-            <img class="main_designer_img" src="assets/img/girl.png" alt="Girl">
+            <!--<img src="assets/img/background_person.svg" alt="background">
+            <img class="main_designer_img" src="assets/img/girl.png" alt="Girl">-->
         </section>
         <section class="profession">
             <div class="profession_text">
@@ -207,52 +213,56 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer_contacts">
-            <a href="index.html">
-                <img src="assets/img/logo.svg" alt="logo">
+    <footer class="footer container">
+        <div class="footer_box">
+            <div class="contacts">
+                <a class="footer_logo" href="index.html">
+                <img src="assets/img/logo_footer.svg" alt="logo">
                 UpDate
-            </a>
-            <a href="mailto:support@update.com">support@update.com</a>
-            <a href="tel:12136771024">+1 (213) 677 10 24</a>
+                </a>
+                <a class="email" href="mailto:support@update.com">support@update.com</a>
+                <a href="tel:12136771024">+1 (213) 677 10 24</a>
+            </div>
+
+            <div class="footer_sitemap">
+                <h7>Courses</h7>
+                <ul class="footer_sitemap_list">
+                    <li>Animation</li>
+                    <li>Design</li>
+                    <li>Illustration</li>
+                    <li>Programming</li>
+                    <li>Photo & Film</li>
+                    <li>Marketing</li>
+                </ul>
+            </div>
+            <div class="footer_sitemap">
+                <h7>Teachers</h7>
+                <ul class="footer_sitemap_list">
+                    <li>All Teachers</li>
+                    <li>Become a Teacher</li>
+                </ul>
+            </div>
+            <div class="footer_sitemap">
+                <h7>Information</h7>
+                <ul class="footer_sitemap_list">
+                    <li>Blog</li>
+                    <li>About us</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="footer_sitemap">
+                <h7>EN</h7>
+                <ul class="footer_sitemap_list">
+                    <li>English</li>
+                    <li>French</li>
+                    <li>Russian</li>
+                </ul>
+            </div>
         </div>
-        <div class="footer_sitemap">
-            <h6>Courses</h6>
-            <ul>
-                <li>Animation</li>
-                <li>Design</li>
-                <li>Illustration</li>
-                <li>Programming</li>
-                <li>Photo & Film</li>
-                <li>Marketing</li>
-            </ul>
-        </div>
-        <div class="footer_sitemap">
-            <h6>Teachers</h6>
-            <ul>
-                <li>All Teachers</li>
-                <li>Become a Teacher</li>
-            </ul>
-        </div>
-        <div class="footer_sitemap">
-            <h6>Information</h6>
-            <ul>
-                <li>Blog</li>
-                <li>About us</li>
-                <li>FAQ</li>
-            </ul>
-        </div>
-        <div class="footer_sitemap">
-            <h6>EN</h6>
-            <ul>
-                <li>English</li>
-                <li>French</li>
-                <li>Russian</li>
-            </ul>
-        </div>
+
         <div class="footer_copyright">
             <a href="#">Policy privacy</a>
-            <p>Copyright 2022. All rights reserved</p>
+            <span>Copyright 2022. All rights reserved</span>
         </div>
     </footer>
 </body>
