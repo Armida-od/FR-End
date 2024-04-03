@@ -1,16 +1,109 @@
 *{
-    padding: 0;
     margin: 0;
     border: 0;
+    text-decoration: none;
+}
+body{
+    background: #EFEFF2;
+    margin: 0;
+    font: 400 18px/28px Inter, sans-serif;
+    color: #19191C;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0 0;
+    margin-bottom: 164px;
+}
+.header_box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.logo{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #19191C;
+    /*text-decoration: none;*/
+    /*margin-right: 68px;*/
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.nav_link{
+    color: #19191C;
+    /*text-decoration: none;*/
+}
+.btn-box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.btn_box_link{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
 }
 .trialFree{
     background: #19191C;
+    color: #EFEFF2;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 12px 37px;
 }
 .button_started{
     background: #504DEE;
 }
 .offer{
-    background-image: url("../../assets/img/gradient.png");
+    /*background-image: url("../../assets/img/gradient.png");*/
+    display: flex;
+    justify-content: space-between;
+}
+.offer_left{
+    width: 648px;
+}
+.offer_date{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #19191C;
+}
+.offer_prof{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #19191C;
+}
+.offer_title{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #19191C;
+    margin: 0 0 46px 0;
+}
+.offer_desc{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #19191C;
+}
+.profession{
+    background: #FBFBFC;
 }
 .profession_card-1, .profession_card_discover_base, .profession_card_discover_premium{
     background: #DEEFE4;
@@ -30,6 +123,65 @@
 .profession_card_discover_optimal_button{
     background: #FBFBFC;
 }
-footer{
+.footer{
     background: #19191C;
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 103px 30px;
+}
+.footer_box{
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    padding: 36px 0 0;
+    margin: 0 auto;
+}
+.footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+}
+.contacts>a{
+    color:#FBFBFC;
+}
+.email{
+    margin: 30px 0 15px 0;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.footer_sitemap{
+    color:#FBFBFC;
+}
+.footer_sitemap{
+    display: flex;
+    flex-direction: column;
+}
+.footer_sitemap_list{
+    list-style: none;
+    padding: 0;
+}
+.footer_sitemap>h7{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.footer_sitemap_list{
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 28px;
+}
+.footer_copyright{
+    text-align: center;
+    color: #6D6D77;
+    margin: 48px 0;
+}
+.footer_copyright>a{
+    color: #6D6D77;
+    margin-right: 50px;
 }
