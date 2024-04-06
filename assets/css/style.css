@@ -4,20 +4,23 @@
     text-decoration: none;
 }
 body{
-    background: #EFEFF2;
-    margin: 0;
     font: 400 18px/28px Inter, sans-serif;
-    color: #19191C;
 }
-.container{
-    width: 1440px;
+main{
+    background: #EFEFF2;
+    color: #19191C;
+    width: 1920px;
     margin: 0 auto;
+}
+.header_offer{
+    background: url("../img/gradient.png") no-repeat 0 100px;
+    background-size: 1920px;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 36px 0 0;
-    margin-bottom: 164px;
+    margin-bottom: 133px;
+    padding: 36px 150px 30px;
 }
 .header_box{
     display: flex;
@@ -32,8 +35,6 @@ body{
     font-size: 24px;
     line-height: 30px;
     color: #19191C;
-    /*text-decoration: none;*/
-    /*margin-right: 68px;*/
 }
 .nav_list{
     display: flex;
@@ -45,7 +46,6 @@ body{
 }
 .nav_link{
     color: #19191C;
-    /*text-decoration: none;*/
 }
 .btn-box{
     display: flex;
@@ -66,22 +66,25 @@ body{
     font-weight: 700;
     padding: 12px 37px;
 }
-.button_started{
-    background: #504DEE;
-}
 .offer{
-    /*background-image: url("../../assets/img/gradient.png");*/
     display: flex;
     justify-content: space-between;
+    background: url("../img/background_person.svg") no-repeat 90% 100%;
+    background-size: 22%;
 }
 .offer_left{
     width: 648px;
+    margin-bottom: 100px;
+    padding: 0 150px 40px;
 }
 .offer_date{
     font-size: 18px;
     line-height: 28px;
     font-weight: 700;
     color: #19191C;
+    margin-bottom: 35px;
+    border-bottom: 4px solid #504DEE;
+    width: max-content;
 }
 .offer_prof{
     font-size: 18px;
@@ -102,36 +105,232 @@ body{
     font-weight: 400;
     color: #19191C;
 }
+.button_started{
+    background: #504DEE;
+    padding: 16px 37px;
+    color: #FBFBFC;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 52px 0 102px;
+}
+.offer_sale{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.offer_expiration{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.offer_list{
+    flex-grow: 1;
+    position: relative;
+    list-style: none;
+    background: url("../img/girl.png") no-repeat 130% 100%;
+    background-size: 78%;
+}
+.list_item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.offer_list_invision{
+    top: 16px;
+    right: 139px;
+}
+.offer_list_protopie{
+    top: -50px;
+    right: 360px;
+}
+.offer_list_miro{
+    top: 38px;
+    right: 602px;
+}
+.offer_list_photoshop{
+    top: 184px;
+    left: 220px;
+}
+.offer_list_figma{
+    top: 314px;
+    right: 794px;
+}
+.offer_list_illustrator{
+    bottom: 146px;
+    left: 100px;
+}
 .profession{
     background: #FBFBFC;
+    padding: 150px 150px 100px;
+}
+.profession_cards_discover{
+    background: #FBFBFC;
+    padding: 100px 150px 150px;
+}
+.profession_text_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 133px;
+}
+.profession_title, .profession_card_discover_title{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #19191C;
+    margin: 0 0 46px 0;
+}
+.profession_text{
+    margin-right: 154px;
+}
+.profession_desc{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    width: 575px;
+    color: #6D6D77;
+}
+.profession_text_under_line{
+    margin-top: 16px;
+}
+.profession_text_under_number{
+    margin-bottom: 20px;
+}
+.profession_text_under_line{
+    color: #6D6D77;
+}
+.profession_line{
+    border: 4px solid #19191C;
+    width: 250px;
+}
+.profession_count_number{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #19191C;
+}
+.profession_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.profession_card_title, .profession_card_discover_base_title, .profession_card_discover_premium_title, .profession_card_discover_optimal_title{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #19191C;
+    padding: 58px 0 20px 70px;
+}
+.profession_card_text{
+    padding: 16px 85px 20px 70px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.prof-live{
+    border: 4px solid #19191C;
+    width: 370px;
+    margin-left: 70px;
 }
 .profession_card-1, .profession_card_discover_base, .profession_card_discover_premium{
     background: #DEEFE4;
+}
+.profession_card-1, .profession_card-2, .profession_card-3{
+    display: flex;
+    flex-direction: column;
+    width: 526px;
+    height: 329px;
 }
 .profession_card-2{
     background: #F3F3D7;
 }
 .profession_card-3{
-    background: #EFDEEE
+    background: #EFDEEE;
+}
+.discover_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.profession_card_discover_base, .profession_card_discover_premium, .profession_card_discover_optimal{
+    display: flex;
+    flex-direction: column;
+    width: 526px;
+}
+.profession_card_discover_base_list, .profession_card_discover_optimal_list, .profession_card_discover_premium_list{
+    list-style: square;
+    padding: 16px 85px 20px 94px;
+    font-size: 18px;
+    line-height: 43px;
+    font-weight: 400;
 }
 .profession_card_discover_base_button, .profession_card_discover_premium_button{
     background: #19191C;
+    color:#FBFBFC;
+}
+.profession_card_discover_base_button, .profession_card_discover_premium_button, .profession_card_discover_optimal_button {
+    margin: 26px 0 70px 74px;
+    width: 163px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.profession_card_discover_optimal_title{
+    color: #FBFBFC;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
 }
 .profession_card_discover_optimal{
     background: #504DEE;
+    color: #FBFBFC;
 }
 .profession_card_discover_optimal_button{
     background: #FBFBFC;
+    color: #504DEE;
+}
+.profession_card_discover_base_fullPrice, .profession_card_discover_premium_fullPrice{
+    color: #6D6D77;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 85px 0 70px;
+}
+.profession_card_discover_base_fullPrice{
+    margin-top: 140px;
+}
+.profession_card_discover_premium_fullPrice{
+    margin-top: 54px;
+}
+.profession_card_discover_optimal_fullPrice{
+    margin-top: 97px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 85px 0 70px;
+    color: #EFEFF2;
+}
+.profession_card_discover_base_price, .profession_card_discover_premium_price{
+    font-size: 58px;
+    line-height: 72px;
+    font-weight: 700;
+    padding: 0 85px 0 70px;
+}
+.profession_card_discover_optimal_price{
+    font-size: 58px;
+    line-height: 72px;
+    font-weight: 700;
+    padding: 0 85px 0 70px;
 }
 .footer{
     background: #19191C;
-    width: 1920px;
-    margin: 0 auto;
-    padding: 0 103px 30px;
+    padding: 36px 150px 30px;
 }
 .footer_box{
     display: flex;
-    width: 1440px;
     justify-content: space-between;
     padding: 36px 0 0;
     margin: 0 auto;
